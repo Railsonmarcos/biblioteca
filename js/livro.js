@@ -1,5 +1,3 @@
-'use strict'
-
 const openModal = () => document.getElementById('modal').classList.add('active')
 const openModal2 = () => document.getElementById('modal2').classList.add('active')
 
@@ -169,3 +167,5 @@ document.getElementById('cancelar')
     .addEventListener('click', closeModal)
 
 // modal apagar
+document.getElementById('cancelar2')
+    .addEventListener('click', closeModal2)
