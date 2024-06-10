@@ -1,5 +1,3 @@
-'use strict'
-
 const openModal = () => document.getElementById('modal').classList.add('active')
 const openModal2 = () => document.getElementById('modal2').classList.add('active')
 
@@ -58,7 +56,7 @@ const saveEmprestimo = () => {
             livro: document.getElementById('livro').value,
             dtemprestimo: document.getElementById('dtemprestimo').value,
             dtdevolucao: document.getElementById('dtdevolucao').value
-           
+
         }
         const index = document.getElementById('nome').dataset.index
         if (index == 'new') {
